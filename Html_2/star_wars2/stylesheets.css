@@ -1,0 +1,45 @@
+body{
+	background-image:url("https://i.ytimg.com/vi/Q-hj0jQ_MUw/maxresdefault.jpg") ; 
+	text-align: center;
+	color:white;
+}
+
+#imperio *{
+	background-color: red;
+}
+
+#rebeldes *{
+	background-color: blue;
+}
+
+#titulo_imperio:active *{
+	color:yellow;
+	background-color: purple;
+}
+
+#titulote:hover *{
+	text-transform: uppercase;
+	background-color: blue;
+}
+
+#originales:focus *{
+	font-style: italic;
+}
+
+#darth *{
+	font-size: 150%;
+	text-transform: uppercase;
+}
+
+#skyw *{
+	font-size: 150%
+	text-transform: uppercase;
+}
+
+#trailer *{
+	border: 1px solid white;
+}
+
+#mapa *{
+	border: 10px dotted white;
+}

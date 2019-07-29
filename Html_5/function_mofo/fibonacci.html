@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function suma(nro1,nro2){
+			return nro1+nro2;
+		}
+
+		function fibonacci(n){
+			var aux1 = 0;
+			var aux2 = 1;
+			var aux3;
+			var precuela;
+			var contador = 1;
+			var salida = "0,1"
+			
+			if(n==0){
+				return salida;
+			}
+			else{
+				while(contador <= n){
+					precuela = ","+suma(aux1,aux2)
+					salida = salida+precuela					
+					aux3 = aux2
+					aux2 += aux1
+					aux1 = aux3
+					contador++
+				}
+			}
+			return salida
+		}
+	</script>
+		
+
+</body>
+</html>

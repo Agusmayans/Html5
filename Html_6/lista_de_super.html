@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var listadesuper = ["agua","yerba","coco","spiderman","infinityWar","queSalgaLa2"];
+		var loUltimo = listadesuper.length -1;
+		var aux = 0
+
+		var poemaDesordenado = "roses red are bacon crispy i bacon love and is blue violets are"
+		var stringDesordenado = poemaDesordenado.split(" ")
+		var arregloOrdenado = []
+
+
+		while (stringDesordenado.length > 0) {
+			arregloOrdenado.push(stringDesordenado.shift())
+			arregloOrdenado.push(stringDesordenado.pop())
+			
+		}
+		console.log(arregloOrdenado)
+		function logitem(arreglo){
+			for(var i=0; i<arreglo.length; i++){
+    			console.log(arreglo[i])
+			}
+		}
+
+		function sumarray(arreglo){
+			for(var i=0; i<arreglo.length; i++){
+				aux+=arreglo[i]	;
+			}
+			return aux;
+		}
+		function biggestsmallest(arreglo){
+			for(var i=0; i<arreglo.length; i++){
+
+			}
+		}
+	</script>
+
+</body>
+</html>

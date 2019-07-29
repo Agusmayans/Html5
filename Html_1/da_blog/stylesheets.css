@@ -1,0 +1,28 @@
+
+body{
+	background-color: grey;
+}
+
+h3{
+	color: blue;
+	font-size: 120%;
+
+}
+
+h1{
+	color: yellow;
+	text-align : center;
+}
+
+nav{
+	font-weight: bolder;
+	font-size: 200%;
+}
+
+#macaco{
+	color:red;
+}
+
+.caspa{
+	font-style: italic;
+}

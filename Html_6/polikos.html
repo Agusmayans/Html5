@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var favorites = []
+
+		var famous = ['alex smith', 'amy whinehouse', 'cameron diaz', 'brad pitt',
+    'ashton kutcher', 'mark whalberg', 'morgan freeman', 'mila kunis']
+
+    	var nombreAux
+    	var obama_jobs = []
+    	var reverse_politicos = {}
+
+    	var politicos = {
+        	secretary_of_state: 'hillary clinton',
+        	potus: 'barack obama',
+        	flotus: 'michelle obama',
+        	vice_prez: 'joe biden',
+        	gov_of_california: 'jerry brown'
+    	}
+
+    	var b_named_politicos={}
+    	var test = []
+    	var aux
+
+    	for(var i=0; i<famous.length; i++){
+    		if(famous[i][0]=="a"){
+    			favorites.push(famous[i])
+    		}
+    	}
+
+
+    	for(x in politicos){
+    			obama_jobs.push(x)
+    		
+		}
+
+		for(x in politicos){
+    		nombreAux = politicos[x].split(" ")
+    		if(nombreAux[0][0]=="b"||nombreAux[1][0]=="b"){
+    			b_named_politicos[x] = politicos[x]
+    			test.push(politicos[x])
+    		}
+		}
+
+		for(x in politicos){
+			
+			reverse_politicos[politicos[x]]=x
+			
+		}
+
+	</script>
+</body>
+</html>
+
+
+
+<!-- 
+for(x in politicos){
+    		nombreAux = politicos[x].split(" ")
+    		if(nombreAux[0][0]=="b"||nombreAux[1][0]=="b"){
+    			obama_jobs.push(politicos[x])
+    		}
+		} -->

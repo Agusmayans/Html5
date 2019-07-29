@@ -1,0 +1,13 @@
+#boton:active {
+	background-color: yellow;
+}
+
+#casilla:hover {
+	color: red;
+}
+
+#casilla:focus {
+	color: white;
+	background-color: black;
+	border:6px solid green;
+}

@@ -1,0 +1,25 @@
+*{
+	text-align: center;
+}
+
+.header{
+	color: skyblue;
+}
+
+.highlight{
+        color: red;
+        background: lightblue;
+      }
+.background{
+	background-color: red;
+}
+
+.swap{
+	font-size: 30px;
+	color: yellow;
+}
+
+.wamu{
+	color: green;
+}
+

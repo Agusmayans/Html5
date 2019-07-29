@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function fizzbuzz2(nro1,nro2,hastacuanto){ 
+			var contador = 1;
+			var salida = "1"			
+			while(contador<=hastacuanto){
+				if(!(contador%nro1)&&!(contador%nro2)){
+					console.log(contador+"FizzBuzz")
+				}
+				else if(!(contador%nro1)){
+					console.log(contador+"Fizz")
+				}
+				else if(!(contador%nro2)){
+					console.log(contador+"Buzz")
+				}
+				else{
+					console.log(contador)
+				}
+				contador++;
+			}
+		}
+	</script>
+		
+
+</body>
+</html>

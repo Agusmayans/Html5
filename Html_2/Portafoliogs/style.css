@@ -1,0 +1,24 @@
+*{
+	background-image: url("https://i.ytimg.com/vi/Q-hj0jQ_MUw/maxresdefault.jpg")
+}
+
+
+#container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.img{
+	width: 30%;
+	margin: 1.4%
+}
+
+#titulo{
+	color:white;
+	font-size:40px;
+	margin-left: 162px;
+	text-transform: uppercase;
+	font-family: 'Pacifico', cursive;
+	border-bottom: 2px solid red;
+	width: 56%;
+}

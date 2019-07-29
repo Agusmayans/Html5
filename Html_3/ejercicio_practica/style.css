@@ -1,0 +1,26 @@
+.btn-success{
+	background-color: blue;
+}
+
+.col{
+	border-style: solid;
+	border-color: black;
+}
+
+.verde{
+	background-color: red;
+	border: 1px black solid;
+	height: 75px
+}
+
+.cola{
+	height: 74px;
+}
+
+.colita{
+	height: 73px;
+}
+
+.btn-warning{
+	background-color: red;
+}

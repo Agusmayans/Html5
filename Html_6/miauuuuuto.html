@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var auto ={}
+
+		auto.marca="ford"
+		auto.año=1944
+		auto.nuevo=true
+		var propertyKey = "modelo"
+		auto[propertyKey] = "ka"
+		var anotherPropertyKey = "precio"
+		auto.precio = 120000
+		console.log(auto[anotherPropertyKey])
+		console.log(auto[propertyKey])
+		console.log(auto["modelo"])
+		var nextProperty = "color"
+		auto[nextProperty] = "blanco"
+		console.log(auto[nextProperty])
+		console.log(auto["color"])
+		for(x in auto){
+			console.log(auto[x]+"\n")
+		}
+
+	</script>
+</body>
+</html>

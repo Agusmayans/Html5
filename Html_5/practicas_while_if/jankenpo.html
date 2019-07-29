@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		while(!(eleccion=="tijeras"||eleccion=="piedra"||eleccion=="papel")){
+			var eleccion=prompt("Elegi entre Piedra, Papel, Tijeras por favor").toLowerCase()
+		}
+		alert("El usuario eligio "+eleccion)
+		var eleccionPC= Math.floor((Math.random() * 3)+1)			
+		if(eleccion=="piedra" && eleccionPC==1){
+			alert("La computadora eligio piedra, han empatado")
+		}
+		if(eleccion=="piedra" && eleccionPC==2){
+			alert("La computadora eligio papel, has perdido")
+		}
+		if(eleccion=="piedra" && eleccionPC==3){
+			alert("La computadora eligio tijeras, has ganado")
+		}
+		if(eleccion=="papel" && eleccionPC==1){
+			alert("La computadora eligio piedra, has ganado")
+		}
+		if(eleccion=="papel" && eleccionPC==2){
+			alert("La computadora eligio papel, han empatado")
+		}
+		if(eleccion=="papel" && eleccionPC==3){
+			alert("La computadora eligio tijeras, has perdido")
+		}
+		if(eleccion=="tijeras" && eleccionPC==1){
+			alert("La computadora eligio piedra, has perdido")
+		}
+		if(eleccion=="tijeras" && eleccionPC==2){
+			alert("La computadora eligio papel, has ganado")
+		}
+		if(eleccion=="tijeras" && eleccionPC==3){
+			alert("La computadora eligio tijeras, han empatado")
+		}
+
+		location.reload();
+	</script>
+		
+
+</body>
+</html>

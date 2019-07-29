@@ -1,0 +1,61 @@
+body{
+	background-image:url("https://i.ytimg.com/vi/Q-hj0jQ_MUw/maxresdefault.jpg") ; 
+	text-align: center;
+	color:white;
+	border-radius: 500px;
+	box-sizing: content-box;
+}
+.titulote{
+	text-transform: uppercase;
+	font-size: 300%;
+}
+.titulito{
+	text-transform: uppercase;
+	font-size: 115%;
+}
+.imperio{
+	background-color: red;
+}
+.rebeldes{
+	background-color: blue;
+}
+
+.soldado{
+	border-style: dashed;
+	border-color: grey green green grey;
+	border-width: 6px;
+	border-radius: 500px;
+	letter-spacing: 05px;
+}
+#aclaracion{
+	font-style: oblique;
+	font-size: 125%;
+
+}
+#vader{
+	font-size: 200%
+}
+
+#luke{
+	font-style: italic;
+
+}
+
+.naves{
+	text-transform: uppercase;
+}
+#imperio *{
+
+	color: black;
+}
+#rebeldes *{
+	
+	color: rgb(250,255,250);
+}
+#darth *{
+	font-style: italic;
+}
+
+#skyw *{
+	font-family: "Times New Roman", Times, serif;
+}
